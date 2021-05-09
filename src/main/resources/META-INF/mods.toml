@@ -1,0 +1,30 @@
+	modLoader="javafml"
+	loaderVersion="[36,)"
+	license="MIT"
+	
+[[mods]]
+	modId="replanter"
+	version="1.0"
+	displayName="Replanter"
+	displayURL=""
+	issueTrackerURL=""
+	logoFile=""
+	credits=""
+	authors="AreUThreateningMe"
+	description='''
+Replanter is a client side mod that allows players to right click on crops to harvest and replant them.
+'''
+
+[[dependencies.replanter]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.replanter]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="AFTER"
+    side="BOTH"
