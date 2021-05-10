@@ -6,9 +6,9 @@
 	modId="replanter"
 	version="1.0"
 	displayName="Replanter"
-	displayURL=""
-	issueTrackerURL=""
-	logoFile=""
+	displayURL="https://www.curseforge.com/minecraft/mc-mods/replanter"
+	issueTrackerURL="https://github.com/kregerl/Replanter"
+	logoFile="replanter.png"
 	credits=""
 	authors="AreUThreateningMe"
 	description='''
