@@ -8,6 +8,6 @@ A list of supported crops below:
 - Beetroot
 - Nether Wart
 - Cocoa Beans (Must hold iron axe or above in mainhand and cocoa beans in offhand)  
-- Crops will be fortuned as long as the player is holding the tool in their mainhand and seeds in their offhand.  
+Crops will be fortuned as long as the player is holding the tool in their mainhand and seeds in their offhand.  
 
 If you'd like me to add other crops, please suggest them in the comments or create an issue on [github](https://github.com/kregerl/Replanter)
