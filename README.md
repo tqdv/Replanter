@@ -7,5 +7,6 @@ A list of supported crops below:
 - Potatos
 - Beetroot
 - Nether Wart
+- Cocoa Beans (Must hold iron axe or above in mainhand and cocoa beans in offhand)  
 
 If you'd like me to add other crops, please suggest them in the comments or create an issue on [github](https://github.com/kregerl/Replanter)

@@ -4,6 +4,7 @@ import com.loucaskreger.replanter.Replanter;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.CocoaBlock;
 import net.minecraft.block.CropsBlock;
 import net.minecraft.block.NetherWartBlock;
 import net.minecraft.client.Minecraft;
@@ -62,6 +63,13 @@ public class EventSubscriber {
 								* 16) == 14) {
 							pc.startDestroyBlock(pos, Direction.DOWN);
 						}
+					}
+				} else if (block instanceof CocoaBlock) {
+
+					CocoaBlock cocoaBlock = (CocoaBlock) block;
+					if ((cocoaBlock.getShape(state, world, pos, ISelectionContext.empty()).bounds()
+							.getYsize() == 0.5625)) {
+						pc.startDestroyBlock(pos, world.getBlockState(pos).getValue(CocoaBlock.FACING));
 					}
 				}
 			}
